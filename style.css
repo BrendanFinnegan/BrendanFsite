@@ -1,6 +1,51 @@
 body {
-    background: #b0ffff;
+    background: #b0ffb0;
 }
 h1{
-    color:blue
+    color:rgb(243, 116, 31);
+    text-align: center;
 }
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: brown;
+}
+
+input[type='text'] {
+    background-color: burlywood;
+}
+#sqrl{
+    display: block;
+    block-size: 300px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px
+}
+#zane{
+    display: block;
+    block-size: 300px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    left: 400px
+}
+#turk{
+    display: block;
+    block-size: 300px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    left: 850px
+}
+/*#barvis{
+    display: block;
+    left:400px
+}*/
+a:link {
+    color: blue;
+   }
+    
+   a:visited {
+    color: purple;
+   }
+ 
